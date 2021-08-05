@@ -1,0 +1,39 @@
+[
+    {
+        "rowID": 1,
+        "testCaseID": "DEV_TC__US_SAPP-E-1-F-1-U-1_AC_20_STEP_01_ROW_01_IT_01",
+        "expectedResult": "PASS",
+        "stepDescription": "User has opened the SAP logon pad",
+        "notes": "GIVEN User has opened the SAP logon pad",
+        "actionDescription": "open browser",
+        "instructionLibrary": "Zoomba.GUILibrary",
+        "instruction": "Open Browser",
+        "arg1": "",
+        "arg1_tokenName": "application url",
+        "arg2": "",
+        "arg2_tokenName": "browser type",
+        "arg3": "",
+        "arg4": "",
+        "arg5": "",
+        "arg6": "",
+        "arg7": "",
+        "arg8": "",
+        "arg9": "",
+        "acceptanceCriteria": "Verify user can login to SAP with valid credentials"
+    },
+    {
+        "rowID": 2,
+        "testCaseID": "DEV_TC__US_SAPP-E-1-F-1-U-1_AC_20_STEP_01_ROW_02_IT_01",
+        "expectedResult": "PASS",
+        "stepDescription": "User has opened the SAP logon pad",
+        "notes": "GIVEN User has opened the SAP logon pad",
+        "actionDescription": "enter username",
+        "instructionLibrary": "BuiltIn",
+        "instruction": "Get Count",
+        "arg1": "",
+        "arg1_tokenName": "container",
+        "arg2": "",
+        "arg2_tokenName": "item",
+        "acceptanceCriteria": "Verify user can login to SAP with valid credentials"
+    }
+]
